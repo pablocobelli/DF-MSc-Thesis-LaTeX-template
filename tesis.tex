@@ -1,0 +1,53 @@
+\documentclass[11pt,a4paper,twoside,openright]{book}
+\input{paquetes-y-customizaciones}
+
+\titulo{Turbulencia de ondas gravitocapilares}
+\subtitulo{Un estudio experimental basado en EMDP}
+\autor{Nomble Apellido}
+\numerodelibreta{ABC/XY}
+\lugardetrabajo{Laboratorio de Turbulencia Geofísica \newline Departamento de Física, FCEN, UBA}
+\director{Dr. Pablo Cobelli}
+\codirector{}
+\fechadeinicio{Marzo de 2017}
+\fechadefinalizacion{Febrero de 2018}
+\fechadeexamen{23 de Marzo de 2018}
+
+\begin{document}
+
+% Organizacion del manuscrito
+%
+% Frontmatter
+    \frontmatter
+%   Titlepage
+    \maketitle
+%   Dedication
+    \input{dedicacion}
+%   Resumen (en espanol e ingles)
+    \input{resumen}
+%   Agradecimientos
+    \input{agradecimientos}
+%   Tabla de contenidos
+    \input{tabladecontenidos}
+%   Tabla de simbolos y notacion (si corresponde)
+    \listoffigures
+    \listoftables
+% Mainmatter
+    \mainmatter
+%   Capitulos de la tesis
+    \pagestyle{fancy}
+    \input{introduccion}
+    \input{diseno-construccion}
+    \input{montaje-y-tecnicas}
+    \input{resultados}
+    \input{conclusiones-y-perspectivas}
+%   Apendices varios
+    \appendix
+    \input{apendice-codigos}
+    \input{apendice-planos}
+% Backmatter
+    \backmatter
+%   Bibliografia
+    \input{bibliografia}
+% Fin del documento
+
+\end{document}

@@ -1,0 +1,26 @@
+% PAQUETES NECESARIOS
+\usepackage[utf8]{inputenc}                 % para poder esribir con acentos
+\usepackage[T1]{fontenc}                    % encoding T1 para fonts
+\usepackage[english,spanish]{babel}         % multilenguaje
+\usepackage{graphicx}                       % inclusion de figuras 
+\usepackage{amsthm, amsmath, amssymb}       % fonts y environments para math
+\usepackage{setspace}\onehalfspacing        % espaciado entre lineas
+\usepackage[loose,nice]{units}              % units in upright fractions
+\usepackage{DF-MSc-titlepage}               % titlepage al estilo df.uba.ar
+\usepackage{indentfirst}                    % indentar el inicio de seccion
+\usepackage{lipsum}                         % para generar texto generico
+\usepackage{aas_macros}                     % macros para nombre de journals
+\usepackage{hyperref}                       % para vinculos en el pdf
+\usepackage{bookmark}                       % para que genere bookmarks en el pdf
+\usepackage{fancyhdr}                       % para los headers & footers
+\usepackage{emptypage}                      % saca headers and footers de paginas en blanco 
+\usepackage[margin=1in]{geometry}           % geometria de la pagina 
+
+% CUSTOMIZACIONES PROPIAS
+\graphicspath{{./figures/}}                 % define el directorio de figuras
+\usepackage[Sonny]{fncychap}                % para definir estilos de capitulos
+\renewcommand{\vec}[1]{\mathbf{#1}} 	    % vectores como bold
+
+\geometry{bindingoffset=1cm}                % espacio en el borde interno para el encuadernado
+\geometry{textwidth=390pt}                  % cuerpo del texto fijo en 390pt
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de tablas}}

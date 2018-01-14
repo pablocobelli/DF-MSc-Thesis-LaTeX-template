@@ -52,7 +52,7 @@ help:
 	@echo ""
 	@echo "MORE COMMANDS:"
 	@echo ""
-	@echo "make             - process 'ms.tex' file (default)"
+	@echo "make             - process 'tesis.tex' file (default)"
 	@echo "make clean       - cleans all auxiliary files"
 	@echo "make edit        - edit the source file in vim"
 	@echo "make view        - opens the pdf file in preview"

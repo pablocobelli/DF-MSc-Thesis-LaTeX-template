@@ -27,3 +27,9 @@ Conviene usar UTF-8 como encoding para los archivos .tex, esto garantiza que los
 ### Directorio de figuras
 
 Para que funcione correctamente el procesado, es necesario crear una carpeta llamada `figures` en el mismo directorio donde se encuentran los archivos fuente, y poner en esa carpeta todas las imagenes que se deseen luego incluir en la tesis.
+
+### Directorio "auxfiles"
+
+Al procesar el archivo principal del proyecto, el mismo crea un directorio llamado `auxfiles`
+ en el mismo directorio donde se encuentran los archivos fuente. En ese directorio se albergan todos los archivos auxiliares intermedios que brinda el procesado, incluyendo logfiles, etc. La idea es que el directorio donde se encuentran los archivos fuente (los `*.tex`) se encuentre siempre libre de esos files que complican la navegacion, sobre todo desde la linea de comandos. 
+ 
